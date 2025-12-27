@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\Reference;
+namespace PHPCore\Tests\SwissQrBill\Reference;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\Reference\QrPaymentReferenceGenerator;
-use Sprain\SwissQrBill\Validator\Exception\InvalidQrPaymentReferenceException;
+use PHPCore\SwissQrBill\Reference\QrPaymentReferenceGenerator;
+use PHPCore\SwissQrBill\Validator\Exception\InvalidQrPaymentReferenceException;
 
 final class QrPaymentReferenceGeneratorTest extends TestCase
 {

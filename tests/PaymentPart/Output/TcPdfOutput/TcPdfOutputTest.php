@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\PaymentPart\Output\TcPdfOutput;
+namespace PHPCore\Tests\SwissQrBill\PaymentPart\Output\TcPdfOutput;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Sprain\Tests\SwissQrBill\QrBillTestDataRepository;
-use Sprain\SwissQrBill\PaymentPart\Output\DisplayOptions;
-use Sprain\SwissQrBill\PaymentPart\Output\TcPdfOutput\TcPdfOutput;
-use Sprain\SwissQrBill\QrBill;
-use Sprain\SwissQrBill\QrCode\QrCode;
-use Sprain\Tests\SwissQrBill\TraitValidQrBillsProvider;
+use PHPCore\Tests\SwissQrBill\QrBillTestDataRepository;
+use PHPCore\SwissQrBill\PaymentPart\Output\DisplayOptions;
+use PHPCore\SwissQrBill\PaymentPart\Output\TcPdfOutput\TcPdfOutput;
+use PHPCore\SwissQrBill\QrBill;
+use PHPCore\SwissQrBill\QrCode\QrCode;
+use PHPCore\Tests\SwissQrBill\TraitValidQrBillsProvider;
 
 final class TcPdfOutputTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\DataGroup\Element;
+namespace PHPCore\Tests\SwissQrBill\DataGroup\Element;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\DataGroup\Element\PaymentAmountInformation;
+use PHPCore\SwissQrBill\DataGroup\Element\PaymentAmountInformation;
 
 final class PaymentAmountInformationTest extends TestCase
 {

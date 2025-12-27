@@ -1,5 +1,5 @@
 {
-    "name": "sprain/swiss-qr-bill",
+    "name": "php-core/swiss-qr-bill",
     "description": "A PHP library to create Swiss QR bills",
     "type": "library",
     "license": "MIT",
@@ -31,7 +31,7 @@
     "scripts": {
         "cs:fix": "vendor/bin/php-cs-fixer fix --verbose",
         "cs:diff": "vendor/bin/php-cs-fixer fix --dry-run --diff --verbose",
-        "phpstan": "vendor/bin/phpstan analyse",
+        "phpstan": "vendor/bin/phpstan analyse --memory-limit=2G",
         "phpunit": "vendor/bin/phpunit",
         "rector": "vendor/bin/rector"
     },
@@ -43,12 +43,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Sprain\\SwissQrBill\\": "src"
+            "PHPCore\\SwissQrBill\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Sprain\\Tests\\SwissQrBill\\": "tests"
+            "PHPCore\\Tests\\SwissQrBill\\": "tests"
         }
     }
 }

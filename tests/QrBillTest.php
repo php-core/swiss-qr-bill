@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill;
+namespace PHPCore\Tests\SwissQrBill;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\DataGroup\Element\AlternativeScheme;
-use Sprain\SwissQrBill\Exception\InvalidQrBillDataException;
-use Sprain\SwissQrBill\QrBill;
+use PHPCore\SwissQrBill\DataGroup\Element\AlternativeScheme;
+use PHPCore\SwissQrBill\Exception\InvalidQrBillDataException;
+use PHPCore\SwissQrBill\QrBill;
 use Zxing\QrReader;
 
 final class QrBillTest extends TestCase

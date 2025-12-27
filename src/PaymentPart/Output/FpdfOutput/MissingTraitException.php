@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Sprain\SwissQrBill\PaymentPart\Output\FpdfOutput;
+namespace PHPCore\SwissQrBill\PaymentPart\Output\FpdfOutput;
 
 class MissingTraitException extends \RuntimeException
 {

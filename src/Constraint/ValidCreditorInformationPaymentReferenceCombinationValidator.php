@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\Constraint;
+namespace PHPCore\SwissQrBill\Constraint;
 
-use Sprain\SwissQrBill\DataGroup\Element\PaymentReference;
-use Sprain\SwissQrBill\QrBill;
+use PHPCore\SwissQrBill\DataGroup\Element\PaymentReference;
+use PHPCore\SwissQrBill\QrBill;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\ConstraintValidator;
 use Symfony\Component\Validator\Exception\UnexpectedTypeException;

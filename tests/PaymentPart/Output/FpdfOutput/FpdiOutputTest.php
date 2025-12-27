@@ -1,20 +1,20 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\PaymentPart\Output\FpdfOutput;
+namespace PHPCore\Tests\SwissQrBill\PaymentPart\Output\FpdfOutput;
 
 use PHPUnit\Framework\Attributes\DataProvider;
-use Sprain\Tests\SwissQrBill\QrBillTestDataRepository;
+use PHPCore\Tests\SwissQrBill\QrBillTestDataRepository;
 use Fpdf\Traits\MemoryImageSupport\MemImageTrait;
 use PHPUnit\Framework\TestCase;
 use setasign\Fpdi\Fpdi;
-use Sprain\SwissQrBill\Exception\InvalidFpdfImageFormat;
-use Sprain\SwissQrBill\PaymentPart\Output\FpdfOutput\FpdfOutput;
-use Sprain\SwissQrBill\PaymentPart\Output\DisplayOptions;
-use Sprain\SwissQrBill\QrBill;
-use Sprain\SwissQrBill\QrCode\QrCode;
-use Sprain\Tests\SwissQrBill\TraitValidQrBillsProvider;
-use Sprain\SwissQrBill\PaymentPart\Output\FpdfOutput\FpdfTrait;
-use Sprain\SwissQrBill\PaymentPart\Output\FpdfOutput\MissingTraitException;
+use PHPCore\SwissQrBill\Exception\InvalidFpdfImageFormat;
+use PHPCore\SwissQrBill\PaymentPart\Output\FpdfOutput\FpdfOutput;
+use PHPCore\SwissQrBill\PaymentPart\Output\DisplayOptions;
+use PHPCore\SwissQrBill\QrBill;
+use PHPCore\SwissQrBill\QrCode\QrCode;
+use PHPCore\Tests\SwissQrBill\TraitValidQrBillsProvider;
+use PHPCore\SwissQrBill\PaymentPart\Output\FpdfOutput\FpdfTrait;
+use PHPCore\SwissQrBill\PaymentPart\Output\FpdfOutput\MissingTraitException;
 
 final class FpdiOutputTest extends TestCase
 {

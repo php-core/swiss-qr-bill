@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\PaymentPart\Output\HtmlOutput;
+namespace PHPCore\Tests\SwissQrBill\PaymentPart\Output\HtmlOutput;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\HtmlOutput;
-use Sprain\SwissQrBill\PaymentPart\Output\DisplayOptions;
-use Sprain\SwissQrBill\QrBill;
-use Sprain\SwissQrBill\QrCode\QrCode;
-use Sprain\Tests\SwissQrBill\TestCompactSvgQrCodeTrait;
-use Sprain\Tests\SwissQrBill\TraitValidQrBillsProvider;
+use PHPCore\SwissQrBill\PaymentPart\Output\HtmlOutput\HtmlOutput;
+use PHPCore\SwissQrBill\PaymentPart\Output\DisplayOptions;
+use PHPCore\SwissQrBill\QrBill;
+use PHPCore\SwissQrBill\QrCode\QrCode;
+use PHPCore\Tests\SwissQrBill\TestCompactSvgQrCodeTrait;
+use PHPCore\Tests\SwissQrBill\TraitValidQrBillsProvider;
 
 final class HtmlOutputTest extends TestCase
 {

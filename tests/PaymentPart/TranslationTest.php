@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\PaymentPart;
+namespace PHPCore\Tests\SwissQrBill\PaymentPart;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\PaymentPart\Translation\Translation;
+use PHPCore\SwissQrBill\PaymentPart\Translation\Translation;
 
 final class TranslationTest extends TestCase
 {

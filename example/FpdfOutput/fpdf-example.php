@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
 use Fpdf\Fpdf;
-use Sprain\SwissQrBill\PaymentPart\Output\DisplayOptions;
-use Sprain\SwissQrBill\PaymentPart\Output\FpdfOutput\FpdfOutput;
+use PHPCore\SwissQrBill\PaymentPart\Output\DisplayOptions;
+use PHPCore\SwissQrBill\PaymentPart\Output\FpdfOutput\FpdfOutput;
 
 require __DIR__ . '/../../vendor/autoload.php';
 
@@ -20,7 +20,7 @@ $fpdf = new Fpdf('P', 'mm', 'A4');
 
 // In case you want to draw scissors and dashed lines, use this way to create your FPDF instance:
 // $fpdf = new class('P', 'mm', 'A4') extends \Fpdf\Fpdf {
-//    use \Sprain\SwissQrBill\PaymentPart\Output\FpdfOutput\FpdfTrait;
+//    use \PHPCore\SwissQrBill\PaymentPart\Output\FpdfOutput\FpdfTrait;
 // };
 
 $fpdf->AddPage();

@@ -1,21 +1,21 @@
 <?php declare(strict_types=1);
 
 
-namespace Sprain\SwissQrBill\PaymentPart\Output\FpdfOutput;
+namespace PHPCore\SwissQrBill\PaymentPart\Output\FpdfOutput;
 
 use Fpdf\Fpdf;
 use setasign\Fpdi\Fpdi;
-use Sprain\SwissQrBill\Exception\InvalidFpdfImageFormat;
-use Sprain\SwissQrBill\PaymentPart\Output\AbstractOutput;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\FurtherInformation;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\OutputElementInterface;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Placeholder;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Text;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Title;
-use Sprain\SwissQrBill\PaymentPart\Output\LineStyle;
-use Sprain\SwissQrBill\PaymentPart\Translation\Translation;
-use Sprain\SwissQrBill\QrBill;
-use Sprain\SwissQrBill\QrCode\QrCode;
+use PHPCore\SwissQrBill\Exception\InvalidFpdfImageFormat;
+use PHPCore\SwissQrBill\PaymentPart\Output\AbstractOutput;
+use PHPCore\SwissQrBill\PaymentPart\Output\Element\FurtherInformation;
+use PHPCore\SwissQrBill\PaymentPart\Output\Element\OutputElementInterface;
+use PHPCore\SwissQrBill\PaymentPart\Output\Element\Placeholder;
+use PHPCore\SwissQrBill\PaymentPart\Output\Element\Text;
+use PHPCore\SwissQrBill\PaymentPart\Output\Element\Title;
+use PHPCore\SwissQrBill\PaymentPart\Output\LineStyle;
+use PHPCore\SwissQrBill\PaymentPart\Translation\Translation;
+use PHPCore\SwissQrBill\QrBill;
+use PHPCore\SwissQrBill\QrCode\QrCode;
 
 final class FpdfOutput extends AbstractOutput
 {

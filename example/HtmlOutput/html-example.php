@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
-use Sprain\SwissQrBill\PaymentPart\Output\DisplayOptions;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\HtmlOutput;
+use PHPCore\SwissQrBill\PaymentPart\Output\DisplayOptions;
+use PHPCore\SwissQrBill\PaymentPart\Output\HtmlOutput\HtmlOutput;
 
 require __DIR__ . '/../../vendor/autoload.php';
 

@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\Reference;
+namespace PHPCore\Tests\SwissQrBill\Reference;
 
 use PHPUnit\Framework\Attributes\DataProvider;
-use Sprain\SwissQrBill\Reference\RfCreditorReferenceGenerator;
+use PHPCore\SwissQrBill\Reference\RfCreditorReferenceGenerator;
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\String\StringModifier;
-use Sprain\SwissQrBill\Validator\Exception\InvalidCreditorReferenceException;
+use PHPCore\SwissQrBill\String\StringModifier;
+use PHPCore\SwissQrBill\Validator\Exception\InvalidCreditorReferenceException;
 
 final class RfCreditorReferenceGeneratorTest extends TestCase
 {

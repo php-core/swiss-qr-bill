@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\Constraints;
+namespace PHPCore\Tests\SwissQrBill\Constraints;
 
 use PHPUnit\Framework\Attributes\DataProvider;
-use Sprain\SwissQrBill\Constraint\ValidCreditorInformationPaymentReferenceCombination;
-use Sprain\SwissQrBill\Constraint\ValidCreditorInformationPaymentReferenceCombinationValidator;
-use Sprain\SwissQrBill\DataGroup\Element\CreditorInformation;
-use Sprain\SwissQrBill\DataGroup\Element\PaymentReference;
-use Sprain\SwissQrBill\QrBill;
+use PHPCore\SwissQrBill\Constraint\ValidCreditorInformationPaymentReferenceCombination;
+use PHPCore\SwissQrBill\Constraint\ValidCreditorInformationPaymentReferenceCombinationValidator;
+use PHPCore\SwissQrBill\DataGroup\Element\CreditorInformation;
+use PHPCore\SwissQrBill\DataGroup\Element\PaymentReference;
+use PHPCore\SwissQrBill\QrBill;
 use Symfony\Component\Validator\ConstraintValidatorInterface;
 use Symfony\Component\Validator\Test\ConstraintValidatorTestCase;
 

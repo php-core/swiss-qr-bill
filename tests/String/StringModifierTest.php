@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\String;
+namespace PHPCore\Tests\SwissQrBill\String;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Sprain\SwissQrBill\String\StringModifier;
+use PHPCore\SwissQrBill\String\StringModifier;
 
 final class StringModifierTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\QrCode;
+namespace PHPCore\SwissQrBill\QrCode;
 
 use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelMedium;
 use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeEnlarge;
@@ -13,7 +13,7 @@ use Endroid\QrCode\Writer\PngWriter;
 use Endroid\QrCode\Writer\Result\ResultInterface;
 use Endroid\QrCode\Writer\SvgWriter;
 use Endroid\QrCode\Writer\WriterInterface;
-use Sprain\SwissQrBill\QrCode\Exception\UnsupportedFileExtensionException;
+use PHPCore\SwissQrBill\QrCode\Exception\UnsupportedFileExtensionException;
 
 final class QrCode
 {
@@ -139,7 +139,7 @@ final class QrCode
      * In endroid/qr-code 5.0.9, an option was added to create SVGs in the "old style" again, using <defs> elements.
      * This is what we want to use for TcPdfOutput, if available.
      *
-     * @link https://github.com/sprain/php-swiss-qr-bill/issues/249
+     * @link https://github.com/php-core/php-swiss-qr-bill/issues/249
      * @link https://github.com/endroid/qr-code/commit/3dcdfab4c9122874f3915d8bf80a43b9df11852d
      */
     public function avoidCompactSvgs(): void

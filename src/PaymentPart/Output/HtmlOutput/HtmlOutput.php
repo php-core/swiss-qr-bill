@@ -1,19 +1,19 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput;
+namespace PHPCore\SwissQrBill\PaymentPart\Output\HtmlOutput;
 
-use Sprain\SwissQrBill\PaymentPart\Output\AbstractOutput;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\FurtherInformation;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Placeholder;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Text;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Title;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\FurtherInformationElementTemplate;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PlaceholderElementTemplate;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PrintableStylesTemplate;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\TextElementTemplate;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PaymentPartTemplate;
-use Sprain\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\TitleElementTemplate;
-use Sprain\SwissQrBill\PaymentPart\Translation\Translation;
+use PHPCore\SwissQrBill\PaymentPart\Output\AbstractOutput;
+use PHPCore\SwissQrBill\PaymentPart\Output\Element\FurtherInformation;
+use PHPCore\SwissQrBill\PaymentPart\Output\Element\Placeholder;
+use PHPCore\SwissQrBill\PaymentPart\Output\Element\Text;
+use PHPCore\SwissQrBill\PaymentPart\Output\Element\Title;
+use PHPCore\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\FurtherInformationElementTemplate;
+use PHPCore\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PlaceholderElementTemplate;
+use PHPCore\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PrintableStylesTemplate;
+use PHPCore\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\TextElementTemplate;
+use PHPCore\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\PaymentPartTemplate;
+use PHPCore\SwissQrBill\PaymentPart\Output\HtmlOutput\Template\TitleElementTemplate;
+use PHPCore\SwissQrBill\PaymentPart\Translation\Translation;
 
 final class HtmlOutput extends AbstractOutput
 {

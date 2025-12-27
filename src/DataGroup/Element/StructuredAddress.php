@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\DataGroup\Element;
+namespace PHPCore\SwissQrBill\DataGroup\Element;
 
-use Sprain\SwissQrBill\DataGroup\AddressInterface;
-use Sprain\SwissQrBill\DataGroup\QrCodeableInterface;
-use Sprain\SwissQrBill\String\StringModifier;
-use Sprain\SwissQrBill\Validator\SelfValidatableInterface;
-use Sprain\SwissQrBill\Validator\SelfValidatableTrait;
+use PHPCore\SwissQrBill\DataGroup\AddressInterface;
+use PHPCore\SwissQrBill\DataGroup\QrCodeableInterface;
+use PHPCore\SwissQrBill\String\StringModifier;
+use PHPCore\SwissQrBill\Validator\SelfValidatableInterface;
+use PHPCore\SwissQrBill\Validator\SelfValidatableTrait;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 

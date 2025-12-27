@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\PaymentPart\Output;
+namespace PHPCore\SwissQrBill\PaymentPart\Output;
 
-use Sprain\SwissQrBill\DataGroup\Element\PaymentReference;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\FurtherInformation;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Placeholder;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Text;
-use Sprain\SwissQrBill\PaymentPart\Output\Element\Title;
-use Sprain\SwissQrBill\QrBill;
-use Sprain\SwissQrBill\QrCode\QrCode;
+use PHPCore\SwissQrBill\DataGroup\Element\PaymentReference;
+use PHPCore\SwissQrBill\PaymentPart\Output\Element\FurtherInformation;
+use PHPCore\SwissQrBill\PaymentPart\Output\Element\Placeholder;
+use PHPCore\SwissQrBill\PaymentPart\Output\Element\Text;
+use PHPCore\SwissQrBill\PaymentPart\Output\Element\Title;
+use PHPCore\SwissQrBill\QrBill;
+use PHPCore\SwissQrBill\QrCode\QrCode;
 
 abstract class AbstractOutput implements OutputInterface
 {

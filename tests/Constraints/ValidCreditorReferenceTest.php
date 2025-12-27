@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill\Constraints;
+namespace PHPCore\Tests\SwissQrBill\Constraints;
 
 use PHPUnit\Framework\Attributes\DataProvider;
-use Sprain\SwissQrBill\Constraint\ValidCreditorReference;
-use Sprain\SwissQrBill\Constraint\ValidCreditorReferenceValidator;
+use PHPCore\SwissQrBill\Constraint\ValidCreditorReference;
+use PHPCore\SwissQrBill\Constraint\ValidCreditorReferenceValidator;
 use Symfony\Component\Validator\ConstraintValidatorInterface;
 use Symfony\Component\Validator\Test\ConstraintValidatorTestCase;
 

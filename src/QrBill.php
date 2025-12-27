@@ -1,24 +1,24 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill;
+namespace PHPCore\SwissQrBill;
 
-use Sprain\SwissQrBill\Constraint\ValidCreditorInformationPaymentReferenceCombination;
-use Sprain\SwissQrBill\DataGroup\AddressInterface;
-use Sprain\SwissQrBill\DataGroup\Element\AdditionalInformation;
-use Sprain\SwissQrBill\DataGroup\Element\AlternativeScheme;
-use Sprain\SwissQrBill\DataGroup\Element\CreditorInformation;
-use Sprain\SwissQrBill\DataGroup\Element\Header;
-use Sprain\SwissQrBill\DataGroup\Element\PaymentAmountInformation;
-use Sprain\SwissQrBill\DataGroup\Element\PaymentReference;
-use Sprain\SwissQrBill\DataGroup\EmptyElement\EmptyAdditionalInformation;
-use Sprain\SwissQrBill\DataGroup\EmptyElement\EmptyAddress;
-use Sprain\SwissQrBill\DataGroup\EmptyElement\EmptyLine;
-use Sprain\SwissQrBill\DataGroup\QrCodeableInterface;
-use Sprain\SwissQrBill\Exception\InvalidQrBillDataException;
-use Sprain\SwissQrBill\QrCode\QrCode;
-use Sprain\SwissQrBill\String\StringModifier;
-use Sprain\SwissQrBill\Validator\SelfValidatableInterface;
-use Sprain\SwissQrBill\Validator\SelfValidatableTrait;
+use PHPCore\SwissQrBill\Constraint\ValidCreditorInformationPaymentReferenceCombination;
+use PHPCore\SwissQrBill\DataGroup\AddressInterface;
+use PHPCore\SwissQrBill\DataGroup\Element\AdditionalInformation;
+use PHPCore\SwissQrBill\DataGroup\Element\AlternativeScheme;
+use PHPCore\SwissQrBill\DataGroup\Element\CreditorInformation;
+use PHPCore\SwissQrBill\DataGroup\Element\Header;
+use PHPCore\SwissQrBill\DataGroup\Element\PaymentAmountInformation;
+use PHPCore\SwissQrBill\DataGroup\Element\PaymentReference;
+use PHPCore\SwissQrBill\DataGroup\EmptyElement\EmptyAdditionalInformation;
+use PHPCore\SwissQrBill\DataGroup\EmptyElement\EmptyAddress;
+use PHPCore\SwissQrBill\DataGroup\EmptyElement\EmptyLine;
+use PHPCore\SwissQrBill\DataGroup\QrCodeableInterface;
+use PHPCore\SwissQrBill\Exception\InvalidQrBillDataException;
+use PHPCore\SwissQrBill\QrCode\QrCode;
+use PHPCore\SwissQrBill\String\StringModifier;
+use PHPCore\SwissQrBill\Validator\SelfValidatableInterface;
+use PHPCore\SwissQrBill\Validator\SelfValidatableTrait;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 

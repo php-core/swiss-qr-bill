@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Sprain\Tests\SwissQrBill;
+namespace PHPCore\Tests\SwissQrBill;
 
-use Sprain\SwissQrBill\QrBill;
-use Sprain\SwissQrBill\DataGroup\Element\Header;
-use Sprain\SwissQrBill\DataGroup\Element\PaymentReference;
-use Sprain\SwissQrBill\DataGroup\Element\AlternativeScheme;
-use Sprain\SwissQrBill\PaymentPart\Translation\Translation;
-use Sprain\SwissQrBill\DataGroup\Element\StructuredAddress;
-use Sprain\SwissQrBill\DataGroup\Element\CreditorInformation;
-use Sprain\SwissQrBill\DataGroup\Element\AdditionalInformation;
-use Sprain\SwissQrBill\DataGroup\Element\PaymentAmountInformation;
+use PHPCore\SwissQrBill\QrBill;
+use PHPCore\SwissQrBill\DataGroup\Element\Header;
+use PHPCore\SwissQrBill\DataGroup\Element\PaymentReference;
+use PHPCore\SwissQrBill\DataGroup\Element\AlternativeScheme;
+use PHPCore\SwissQrBill\PaymentPart\Translation\Translation;
+use PHPCore\SwissQrBill\DataGroup\Element\StructuredAddress;
+use PHPCore\SwissQrBill\DataGroup\Element\CreditorInformation;
+use PHPCore\SwissQrBill\DataGroup\Element\AdditionalInformation;
+use PHPCore\SwissQrBill\DataGroup\Element\PaymentAmountInformation;
 
 class QrBillTestDataRepository
 {

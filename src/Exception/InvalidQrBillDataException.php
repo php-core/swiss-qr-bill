@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Sprain\SwissQrBill\Exception;
+namespace PHPCore\SwissQrBill\Exception;
 
 final class InvalidQrBillDataException extends \Exception
 {
