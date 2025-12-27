@@ -71,8 +71,10 @@ final class TcPdfOutput extends AbstractOutput
     {
         $retainCellHeightRatio = $this->tcPdf->getCellHeightRatio();
         $retainAutoPageBreak = $this->tcPdf->getAutoPageBreak();
+        $retainCellPaddings = $this->tcPdf->getCellPaddings();
 
         $this->tcPdf->SetAutoPageBreak(false);
+        $this->tcPdf->setCellPaddings(1.000125, 0, 1.000125, 0);
 
         $this->addSeparatorContentIfNotPrintable();
 
@@ -88,6 +90,12 @@ final class TcPdfOutput extends AbstractOutput
 
         $this->tcPdf->setCellHeightRatio($retainCellHeightRatio);
         $this->tcPdf->SetAutoPageBreak($retainAutoPageBreak);
+        $this->tcPdf->setCellPaddings(
+            $retainCellPaddings['L'],
+            $retainCellPaddings['T'],
+            $retainCellPaddings['R'],
+            $retainCellPaddings['B']
+        );
 
         return null;
     }
